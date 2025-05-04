@@ -13,15 +13,12 @@ The Airbnb Clone Project is a full-stack web development initiative that simulat
 * Promote collaborative workflows through GitHub-based team development.
 * Understand and apply backend security best practices.
 
-## Tech Stack
-
-* **Django**: A high-level Python web framework used for rapid API development.
-* **PostgreSQL**: A powerful open-source relational database system for managing structured data.
-* **GraphQL**: A flexible query language for APIs that allows clients to request exactly the data they need.
-* **Docker**: Used for containerizing the application to ensure consistency across different environments.
-* **GitHub Actions**: CI/CD automation tool used to streamline development workflows and deployments.
-* **Python**: Main backend language for business logic and data processing.
-* **Git**: Version control system for collaborative code management.
+## Tech Stack  
+- Django (Backend framework)  
+- PostgreSQL (Database)  
+- GraphQL (API queries)  
+- Docker (Containerization)  
+- GitHub Actions (CI/CD)
 
 ## Team Roles
 
@@ -39,3 +36,12 @@ The Airbnb Clone Project is a full-stack web development initiative that simulat
 
 - **Security Specialist** *(shared or rotating role)*: Ensures secure data access, implements authentication/authorization mechanisms, and addresses potential vulnerabilities in the system. 
 
+## Technology Stack
+
+* **Django**: A high-level Python web framework used for rapid API development.
+* **PostgreSQL**: A powerful open-source relational database system for managing structured data.
+* **GraphQL**: A flexible query language for APIs that allows clients to request exactly the data they need.
+* **Docker**: Used for containerizing the application to ensure consistency across different environments.
+* **GitHub Actions**: CI/CD automation tool used to streamline development workflows and deployments.
+* **Python**: Main backend language for business logic and data processing.
+* **Git**: Version control system for collaborative code management.
