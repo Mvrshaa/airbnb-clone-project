@@ -73,3 +73,11 @@ The Airbnb Clone Project is a full-stack web development initiative that simulat
 * A booking is linked to one property and one user.
 * A property can have multiple reviews.
 * A booking has one payment.
+
+## Feature Breakdown
+
+* **User Management**: Registration, login, profile management, and role-based access.
+* **Property Management**: List, update, and delete properties. View property details.
+* **Booking System**: Book properties for specific dates, check availability, cancel bookings.
+* **Reviews**: Users can leave ratings and comments on properties they’ve booked.
+* **Payment Processing**: Simulate or integrate payment system for confirmed bookings.
