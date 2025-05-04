@@ -98,3 +98,23 @@ The Airbnb Clone Project is a full-stack web development initiative that simulat
 * **Enforce Role Security**: Differentiate access for admins, hosts, and guests.
 * **Prevent Attacks**: Minimize risk from bots, spammers, and hackers.
 * **Ensure Payment Integrity**: Secure processing of financial transactions to maintain trust and legality.
+
+## CI/CD Pipeline
+
+### What is CI/CD?
+
+CI/CD (Continuous Integration and Continuous Deployment) is a software development practice that automates the process of integrating code changes, testing them, and deploying them to production environments. It ensures that new code can be reliably and quickly released to users.
+
+### Why It's Important
+
+* **Faster Delivery**: Speeds up development cycles by automating testing and deployment.
+* **Early Bug Detection**: Runs tests on every change to catch issues early.
+* **Consistency**: Automates deployment, ensuring consistent environments across dev, staging, and production.
+* **Improved Collaboration**: Facilitates team collaboration by integrating code changes seamlessly.
+
+### Tools Used
+
+* **GitHub Actions**: Automates testing, linting, and deployment workflows directly from the GitHub repository.
+* **Docker**: Packages the application into containers for consistent builds and environments across local and remote systems.
+* **pytest / flake8**: Used for running unit tests and enforcing Python code quality and style checks.
+* **Docker Hub / GitHub Container Registry**: Stores and distributes Docker images for deployment.
