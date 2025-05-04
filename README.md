@@ -20,6 +20,22 @@ The Airbnb Clone Project is a full-stack web development initiative that simulat
 * **GraphQL**: A flexible query language for APIs that allows clients to request exactly the data they need.
 * **Docker**: Used for containerizing the application to ensure consistency across different environments.
 * **GitHub Actions**: CI/CD automation tool used to streamline development workflows and deployments.
+* **Python**: Main backend language for business logic and data processing.
+* **Git**: Version control system for collaborative code management.
 
+## Team Roles
 
+- **Backend Developer**: Designs and implements server-side logic, APIs, and integration with the database using Django. Ensures robust performance and security of backend services.
+
+- **Database Administrator (DBA)**: Defines the database schema, optimizes query performance, manages migrations, and ensures data integrity and backups using PostgreSQL.
+
+- **Frontend Developer** *(optional role if integrating frontend)*: Develops the UI/UX components to interact with backend services. Works closely with backend via REST or GraphQL APIs.
+
+- **DevOps Engineer**: Sets up and maintains CI/CD pipelines using tools like GitHub Actions and Docker. Automates testing, deployment, and monitors infrastructure.
+
+- **QA Engineer**: Designs test plans, executes manual/automated tests, and ensures that all features meet functional and performance requirements.
+
+- **Project Manager**: Coordinates project activities, sets timelines, and facilitates communication between team members. Ensures that the project is delivered on time and meets quality standards.
+
+- **Security Specialist** *(shared or rotating role)*: Ensures secure data access, implements authentication/authorization mechanisms, and addresses potential vulnerabilities in the system. 
 
