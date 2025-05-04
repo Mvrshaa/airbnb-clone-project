@@ -45,3 +45,31 @@ The Airbnb Clone Project is a full-stack web development initiative that simulat
 * **GitHub Actions**: CI/CD automation tool used to streamline development workflows and deployments.
 * **Python**: Main backend language for business logic and data processing.
 * **Git**: Version control system for collaborative code management.
+
+## Database Design
+
+### Key Entities:
+
+* **Users**
+
+  * `id`, `username`, `email`, `password_hash`, `role`
+* **Properties**
+
+  * `id`, `owner_id`, `title`, `description`, `price_per_night`
+* **Bookings**
+
+  * `id`, `user_id`, `property_id`, `start_date`, `end_date`
+* **Reviews**
+
+  * `id`, `user_id`, `property_id`, `rating`, `comment`
+* **Payments**
+
+  * `id`, `booking_id`, `amount`, `status`, `transaction_date`
+
+### Relationships:
+
+* A user can own multiple properties.
+* A user can make multiple bookings.
+* A booking is linked to one property and one user.
+* A property can have multiple reviews.
+* A booking has one payment.
